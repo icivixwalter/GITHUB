@@ -1,9 +1,11 @@
 @REM  cd.. devi posizionarti su git_desktop
-CD c:\CASA\LINGUAGGI\DOS\
+CD c:\Casa\LINGUAGGI\GITHUB\
 dir 
 
 @REM  fai un controllo con status, poi aggiungi con add tutto l'albero + il comimit e il push
 git status
+git pull
+
 
 ECHO pausa di 3 secondi per il controllo
 @TIMEOUT /T 3 /NOBREAK
@@ -26,6 +28,7 @@ ECHO
 @TIMEOUT /T 20 /NOBREAK
 
 git push
+git pull
 
 
 @rem pausa di  secondi per il controllo
